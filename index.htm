@@ -205,6 +205,14 @@ id="canvas"></CANVAS>             </DIV></DIV>
 
 <audio autoplay="autoplay"><source src="http://m10.music.126.net/20190601192750/4a5b14acdcc331009f7b582212e2366b/ymusic/8c38/aed3/398a/54fb191a0642f02a53973151a984b255.mp3" type="audio/mpeg"></audio>
 <script type="text/javascript">
+ 
+        var audio = document.getElementById("audio");
+        document.ontouchend = function() {
+            audio.play()
+        }
+ 
+</script>
+<script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc5987e1ba8b95bbc85efa2ecefbfc06e' type='text/javascript'%3E%3C/script%3E"));
 </script>
